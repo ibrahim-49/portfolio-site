@@ -14,7 +14,7 @@ const Features = () => {
       className="w-full border-b-[1px] border-b-[#000] py-20 px-28 max-w-screen-xl mx-auto"
     >
       <Title title="Features" des="What I Do" />
-      <div className="grid grid-cols-3 gap-12 text-gray-400">
+      <div className="grid grid-cols-3 gap-8 text-gray-400">
         <Cards
           title="Business Strategy"
           des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam massa nibh, dapibus rhoncus elementum vel, faucibus ac elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque ac cursus dui."
