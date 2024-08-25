@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { Navbar, Banner, Features } from "./components/index";
+import { Navbar, Banner, Features, Projects } from "./components/index";
 function App() {
   return (
     <>
@@ -8,6 +8,7 @@ function App() {
         <Navbar />
         <Banner />
         <Features />
+        <Projects />
       </div>
     </>
   );
