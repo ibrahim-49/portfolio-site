@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer"],
+    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -15,7 +15,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full flex items-center py-20 px-28 max-w-screen-xl mx-auto"
+      className="w-full flex items-center py-20 px-28 max-w-screen-xl mx-auto border-b-[1px] border-b-black"
     >
       <div className="w-1/2">
         <div className="flex flex-col gap-4 text-white">
@@ -55,12 +55,13 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="w-1/2 flex justify-center items-center">
+      <div className="w-1/2 flex justify-center items-center ">
         <img
           src={HeroImage}
           alt="Hero"
-          className="bannnerss w-[500px] h-[500px] z-10"
+          className="bannnerss w-auto h-[550px] z-10"
         />
+        <div className="bottom-55 absolute w-[400px] h-[460px] bg-gradient-to-r from-[#1a222f] to-[#031635] sha-shadowOne justify-center items-center"></div>
       </div>
     </section>
   );
