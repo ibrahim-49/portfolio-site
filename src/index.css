@@ -19,8 +19,9 @@ body {
   .bannerIcon {
     @apply w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex rounded-md cursor-pointer hover:text-red-600 items-center justify-center;
   }
-}
 
-.active {
-  color: #fff;
+  .contactInput {
+    @apply w-full h-12 rounded-md bg-[#191b1e] text-gray-400 px-4
+     duration-300;
+  }
 }
