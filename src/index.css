@@ -25,3 +25,7 @@ body {
      duration-300;
   }
 }
+
+/* .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+} */

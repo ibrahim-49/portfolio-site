@@ -43,19 +43,19 @@ const Footer = () => {
           <h1 className="text-red-500 font-bold text-xl ">Resources</h1>
 
           <p className="mt-2">
-            <a href="#About">Athuntication</a>
+            <a href="#Athuntication">Athuntication</a>
           </p>
 
           <p className="mt-2">
-            <a href="#Portfolio">System Status</a>
+            <a href="#System Status">System Status</a>
           </p>
 
           <p className="mt-2">
-            <a href="#Services">Terms of Services</a>
+            <a href="#Terms of Services">Terms of Services</a>
           </p>
 
           <p className="mt-2">
-            <a href="#Blogs">Pricing</a>
+            <a href="#Pricing">Pricing</a>
           </p>
         </div>
       </div>
@@ -64,17 +64,17 @@ const Footer = () => {
           <h1 className="text-red-500 font-bold text-xl ">Developers</h1>
 
           <p className="mt-2">
-            <a href="#About">Documentation</a>
+            <a href="#Documentation">Documentation</a>
           </p>
 
           <p className="mt-2">
-            <a href="#Portfolio">API Reference</a>
+            <a href="#API Reference">API Reference</a>
           </p>
           <p className="mt-2">
-            <a href="#Blogs">Open Source</a>
+            <a href="#Open Source">Open Source</a>
           </p>
           <p className="mt-2">
-            <a href="#Services">Support</a>
+            <a href="#Support">Support</a>
           </p>
         </div>
       </div>

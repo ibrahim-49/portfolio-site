@@ -15,9 +15,9 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full flex items-center py-20 px-28 max-w-screen-xl mx-auto border-b-[1px] border-b-black"
+      className="w-full flex flex-col-reverse md:flex-row md:gap-10 items-center px-5 max-w-screen-xl mx-auto border-b-[1px] border-b-black"
     >
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2 md:pr-5">
         <div className="flex flex-col gap-4 text-white">
           <h3 className="text-lg font-normal">WELCOME</h3>
           <h1 className="text-4xl font-bold">
@@ -55,11 +55,11 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="w-1/2 flex justify-center items-center ">
+      <div className="w-full flex justify-center items-center ">
         <img
           src={HeroImage}
           alt="Hero"
-          className="bannnerss w-auto h-[550px] z-10"
+          className="bannnerss w-auto h-[550px] z-10 object-scale-down"
         />
         <div className="bottom-55 absolute w-[400px] h-[460px] bg-gradient-to-r from-[#1a222f] to-[#031635] sha-shadowOne justify-center items-center"></div>
       </div>
