@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   console.log(showMenu);
   return (
-    <div className="flex w-full flex-wrap h-20 bg-gray-900 sticky top-0 z-50 items-center justify-around border-b-[1px] border-b-gray-700">
+    <div className="flex w-full flex-wrap lg:flex-nowrap md:flex-nowrap h-20 bg-gray-900 sticky top-0 z-50 items-center justify-around border-b-[1px] border-b-gray-700">
       <div className="w-10">
         <img src={Logo} alt="logo" className="w-16 rounded-md" />
       </div>
