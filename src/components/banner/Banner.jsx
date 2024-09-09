@@ -79,7 +79,7 @@ const Banner = () => {
           className="bannnerss w-auto h-[550px] z-10 object-scale-down"
           loading="lazy"
         />
-        <div className="bottom-55 absolute w-[400px] h-[460px] bg-gradient-to-r from-[#1a222f] to-[#031635] sha-shadowOne"></div>
+        <div className="bottom-55 rounded-3xl absolute w-[400px] h-[460px] bg-gradient-to-r from-[#1a222f] to-[#031635] sha-shadowOne"></div>
       </div>
     </section>
   );
