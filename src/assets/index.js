@@ -1,0 +1,12 @@
+export { default as HeroImage } from "./images/HeroImage.png";
+export { default as Logo } from "./images/logo.jpg";
+export { default as Mobile } from "./images/mobile.png";
+export { default as Seo } from "./images/seo.jpg";
+export { default as Ui } from "./images/ui.webp";
+export { default as Web } from "./images/web.webp";
+export { default as Wordpress } from "./images/wordpress.webp";
+export { default as Business } from "./images/business.webp";
+export { default as Client1 } from "./images/client1.jfif";
+export { default as Client2 } from "./images/client2.jfif";
+export { default as Client3 } from "./images/client3.jfif";
+export { default as Contactform } from "./images/contactform.jpg";
