@@ -34,6 +34,10 @@
     "postcss": "^8.4.41",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.10",
+<<<<<<< HEAD
     "vite": "^5.4.4"
+=======
+    "vite": "^5.4.2"
+>>>>>>> f545bfb7e0b86a37661acb03a70ae28e53dd4d63
   }
 }
